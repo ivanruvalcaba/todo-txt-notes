@@ -1,0 +1,13 @@
+{
+    "name": "pandoc-workflow",
+    "version": "0.1.0",
+    "description": "A simple pandoc workflow.",
+    "author": "Iván Ruvalcaba <ivanruvalcaba[at]disroot[dot]org>",
+    "license": "Apache-2.0",
+    "scripts": {
+        "serve": "browser-sync start --server --no-open --startPath=public_html/index.html --files=public_html/**/*.html --logLevel=warn"
+    },
+    "dependencies": {
+        "browser-sync": "^2.26.7"
+    }
+}
